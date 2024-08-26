@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <!-- daisyui cdn link  -->
+     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+     <script src="https://cdn.tailwindcss.com"></script>
+ 
+</head>
+<body>
+    <div class="p-6 bg-gray-100 min-h-screen flex justify-center items-center">
+        <div class="bg-white rounded-xl shadow-lg p-8 max-w-4xl w-full">
+          <!-- Header Section -->
+          <div class="text-center mb-6">
+            <h1 class="text-3xl font-bold mb-2">P.H Paribahan</h1>
+            <p class="text-gray-500">Yes, you can run unit tests and view the results directly within the app.</p>
+          </div>
+      
+          <!-- Bus Information -->
+          <div class="bg-gray-100 rounded-lg p-4 mb-6">
+            <div class="flex justify-between items-center mb-4">
+              <div>
+                <h2 class="text-xl font-semibold">Greenline Paribahan</h2>
+                <p>Coach-009-WEB | AC,Business</p>
+              </div>
+              <div class="text-right">
+                <span class="badge badge-success">40 Seats left</span>
+              </div>
+            </div>
+            <div class="grid grid-cols-2 gap-4 text-gray-700">
+              <div>Route: Dhaka - Sylhet</div>
+              <div>550 Taka Per Seat</div>
+              <div>Departure Time: 9:00 PM</div>
+              <div>Est. Time: 11 Hour</div>
+              <div>Boarding Point: Laxmipur</div>
+              <div>Dropping Point: Bogura</div>
+            </div>
+          </div>
+      
+          <!-- Seat Selection Section -->
+          <div class="grid grid-cols-3 gap-6">
+            <!-- Available Seats -->
+            <div>
+              <h3 class="text-lg font-semibold mb-2">Select Your Seat</h3>
+              <div class="grid grid-cols-4 gap-2">
+                <button class="btn btn-outline">A1</button>
+                <button class="btn btn-outline">A2</button>
+                <button class="btn btn-outline">A3</button>
+                <button class="btn btn-outline">A4</button>
+                <button class="btn btn-outline">B1</button>
+                <button class="btn btn-outline">B2</button>
+                <button class="btn btn-outline">B3</button>
+                <button class="btn btn-outline">B4</button>
+                <button class="btn btn-primary">D3</button>
+                <!-- Repeat for other seats -->
+              </div>
+            </div>
+      
+            <!-- Selected Seats Information -->
+            <div class="col-span-2">
+              <h3 class="text-lg font-semibold mb-2">Selected Your Seat</h3>
+              <div class="bg-gray-100 rounded-lg p-4 mb-4">
+                <div class="grid grid-cols-3 gap-4">
+                  <div>
+                    <p>Seat: C2</p>
+                    <p>Class: Economy</p>
+                  </div>
+                  <div>
+                    <p>Seat: C3</p>
+                    <p>Class: Economy</p>
+                  </div>
+                  <div class="text-right">
+                    <p>Price: 550 Taka</p>
+                    <p>Total: 1100 Taka</p>
+                  </div>
+                </div>
+              </div>
+              <!-- Passenger Details Form -->
+              <div class="space-y-4">
+                <input type="text" placeholder="Enter your name" class="input input-bordered w-full" />
+                <input type="text" placeholder="Enter your phone number" class="input input-bordered w-full" />
+                <button class="btn btn-success w-full">Confirm Booking</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+</body>
+</html>
